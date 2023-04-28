@@ -1,0 +1,21 @@
+
+{
+  "$schema": "https://json-schema.org/draft-04/schema#",
+
+  "definitions": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "nom": { "type": "string" },
+        "prenom": { "type": "string" },
+        "adresse de la station": { "type": "string" },
+        "nom de station": { "type": "string" },
+        "code postal": { "type": "int" },
+        "commune": { "type": "string" },
+        "nombre de bornettes": { "type": "int" }
+      },
+      "required": ["nom", "prenom", "adresse de la station", "nom de station", "code postal", "commune", "nombre de bornettes"]
+    }
+  }
+  
+}
